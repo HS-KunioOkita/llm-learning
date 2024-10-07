@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 transformers = {extras = ["torch", "ja", "sentencepiece"], version = "*"}
-numpy = "<2.0"
+numpy = "*"
+matplotlib = "*"
+japanize-matplotlib = "*"
 
 [dev-packages]
 
